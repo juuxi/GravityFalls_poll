@@ -3,12 +3,12 @@ import { setupCounter } from './counter.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <h3>Question 1</h3>
-<p>Option 1</p>
-<p>Option 2</p>
-<p>Option 3</p>
-<p>Option 4</p>
+<button>Option 1</button>
+<button>Option 2</button>
+<button>Option 3</button>
+<button>Option 4</button>
 
-<button id='counter' type='button' class='counter'>
+<button id='counter' type='button' class='counter'></button>
 `
 
 setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
