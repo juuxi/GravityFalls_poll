@@ -294,3 +294,8 @@ code {
     border-right-color: var(--border);
   }
 }
+
+.debug {
+  color: gray;
+  font-size: 12px;
+}
