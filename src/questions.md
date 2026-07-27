@@ -1,9 +1,9 @@
-# What is the capital of France?
-- London
-- Paris
-- Berlin
+# Вопрос #1
+- Диппер
+- Мэйбл
+- Стэн
 
-# Which planet is known as the Red Planet?
-- Venus
-- Jupiter
-- Mars
+# Вопрос #2
+- Зус
+- Вэнди
+- Гидеон
