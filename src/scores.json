@@ -1,0 +1,36 @@
+[
+  {
+    "question": "Вопрос 1",
+    "answers": [
+      {
+        "text": "Диппер",
+        "scores": { "Dipper": 3, "Stan": 0, "Mabel": 0, "Soos": 0, "Wendy": 0, "Bill Cipher": 0, "Gideon": 0, "Robbie": 0, "Pacifica": 0 }
+      },
+      {
+        "text": "Мэйбл",
+        "scores": { "Dipper": 0, "Stan": 0, "Mabel": 3, "Soos": 0, "Wendy": 0, "Bill Cipher": 0, "Gideon": 0, "Robbie": 0, "Pacifica": 0 }
+      },
+      {
+        "text": "Стэн",
+        "scores": { "Dipper": 0, "Stan": 3, "Mabel": 0, "Soos": 0, "Wendy": 0, "Bill Cipher": 0, "Gideon": 0, "Robbie": 0, "Pacifica": 0 }
+      }
+    ]
+  },
+  {
+    "question": "Вопрос 2",
+    "answers": [
+      {
+        "text": "Зус",
+        "scores": { "Dipper": 0, "Stan": 0, "Mabel": 0, "Soos": 3, "Wendy": 0, "Bill Cipher": 0, "Gideon": 0, "Robbie": 0, "Pacifica": 0 }
+      },
+      {
+        "text": "Вэнди",
+        "scores": { "Dipper": 0, "Stan": 0, "Mabel": 0, "Soos": 0, "Wendy": 3, "Bill Cipher": 0, "Gideon": 0, "Robbie": 0, "Pacifica": 0 }
+      },
+      {
+        "text": "Гидеон",
+        "scores": { "Dipper": 0, "Stan": 0, "Mabel": 0, "Soos": 0, "Wendy": 0, "Bill Cipher": 0, "Gideon": 3, "Robbie": 0, "Pacifica": 0 }
+      }
+    ]
+  }
+]

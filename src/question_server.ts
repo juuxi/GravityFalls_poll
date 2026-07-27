@@ -1,8 +1,4 @@
-import { parseQuestions } from './markdown_parser.ts'
-import questionsRaw from './questions.md?raw';
-
-
-const questions = parseQuestions(questionsRaw);
+import { questions } from './json_parser.ts'
 
 export function setupQuestionServer() {
   let counter = 0;
@@ -14,10 +10,11 @@ export function setupQuestionServer() {
     app_div.innerHTML = `
     <h3>${question.question}</h3>
     `
-    question.options.forEach( option => {
-      app_div.innerHTML += `
-      <button>${option}</button>
-      `
+    question.answers.forEach( (answer, idx) => {
+      let answer_btn = document.createElement('button');
+      answer_btn.innerText = answer.text;
+      answer_btn.value = idx.toString();
+      app_div.appendChild(answer_btn);
     })
   }
 
