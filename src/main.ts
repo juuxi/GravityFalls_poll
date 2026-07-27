@@ -1,5 +1,4 @@
 import './style.css'
-import { setupCounter } from './score_counter.ts'
 import { setupQuestionServer } from './question_server.ts';
 
 
@@ -18,5 +17,4 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <div class='debug'></div>
 `
 
-setupCounter(document.querySelector<HTMLButtonElement>('button')!);
 setupQuestionServer();
