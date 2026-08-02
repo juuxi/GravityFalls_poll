@@ -1,19 +1,25 @@
-import { getScores } from "./score_counter";
+import type { Scores } from "./json_parser";
 
 function countResult() {
-  const scores = getScores();
+  const savedScores = localStorage.getItem('scores');
+  if (savedScores) {
+    const scores: Scores = JSON.parse(savedScores);
 
-  document.querySelector<HTMLDivElement>('.debug')!.innerHTML = `
-  <p>Dipper = ${scores['Dipper']}<p>
-  <p>Stan = ${scores['Stan']}<p>
-  <p>Mabel = ${scores['Mabel']}<p>
-  <p>Soos = ${scores['Soos']}<p>
-  <p>Wendy = ${scores['Wendy']}<p>
-  <p>Bill Cipher = ${scores['Bill Cipher']}<p>
-  <p>Gideon = ${scores['Gideon']}<p>
-  <p>Robbie = ${scores['Robbie']}<p>
-  <p>Pacifica = ${scores['Pacifica']}<p>
-  `
+    let winCharacter: keyof Scores | undefined;
+    let maxScore = -Infinity;
+
+    for (const key in scores) {
+      const k = key as keyof Scores;
+      if (scores[k] > maxScore) {
+        maxScore = scores[k];
+        winCharacter = k;
+      }
+    }
+    
+    document.querySelector<HTMLDivElement>('.debug')!.innerHTML = `
+    Твой любимый персонаж - ${winCharacter}
+    `
+  }
 }
 
 countResult();

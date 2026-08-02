@@ -28,6 +28,7 @@ function addScores(a: Scores, b: Scores): Scores {
 
 export const setCounter = (add_scores: Scores) => {
   curr_scores = addScores(curr_scores, add_scores);
+  localStorage.setItem('scores', JSON.stringify(curr_scores));
 
   document.querySelector<HTMLDivElement>('.debug')!.innerHTML = `
   <p>Dipper = ${curr_scores['Dipper']}<p>
@@ -40,8 +41,4 @@ export const setCounter = (add_scores: Scores) => {
   <p>Robbie = ${curr_scores['Robbie']}<p>
   <p>Pacifica = ${curr_scores['Pacifica']}<p>
   `
-}
-
-export function getScores() {
-  return curr_scores;
 }
