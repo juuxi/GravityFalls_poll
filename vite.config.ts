@@ -11,6 +11,7 @@ export default defineConfig({
       input: {
         main: './index.html',
         question: './question.html',
+        results: './results.html',
       },
     },
   },

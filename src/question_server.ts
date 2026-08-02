@@ -16,18 +16,25 @@ export function setupQuestionServer() {
 
   let changeQuestion = (idx: number) => {
     idx = Math.max(0, idx);
-    idx = Math.min(idx, max_question_num);
     counter = idx;
     currScores.length = 0;
     const question = questions[idx];
     app_div.innerHTML = `
     <h3>${question.question}</h3>
     `
-    question.answers.forEach( (answer, idx) => {
+    question.answers.forEach( (answer, answer_idx) => {
       let answer_btn = document.createElement('button');
       answer_btn.innerText = answer.text;
-      answer_btn.value = idx.toString();
-      app_div.appendChild(answer_btn);
+      answer_btn.value = answer_idx.toString();
+      if(idx >= max_question_num) {
+        const result_page_anchor = document.createElement('a');
+        result_page_anchor.href = 'results.html';
+        result_page_anchor.appendChild(answer_btn);
+        app_div.appendChild(result_page_anchor);
+      }
+      else {
+        app_div.appendChild(answer_btn);
+      }
 
       currScores.push(answer.scores);
       answer_btn.addEventListener('click', () => applyScore(answer_btn));

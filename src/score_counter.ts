@@ -41,3 +41,7 @@ export const setCounter = (add_scores: Scores) => {
   <p>Pacifica = ${curr_scores['Pacifica']}<p>
   `
 }
+
+export function getScores() {
+  return curr_scores;
+}
