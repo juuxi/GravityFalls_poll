@@ -4,6 +4,7 @@ import { setCounter } from './score_counter.ts';
 
 export function setupQuestionServer() {
   let counter = 0;
+  const max_question_num = questions.length - 1;
   let app_div = document.querySelector<HTMLDivElement>('.question_div')!
   let currScores: Scores[] = [];
 
@@ -14,6 +15,8 @@ export function setupQuestionServer() {
   }
 
   let changeQuestion = (idx: number) => {
+    idx = Math.max(0, idx);
+    idx = Math.min(idx, max_question_num);
     counter = idx;
     currScores.length = 0;
     const question = questions[idx];
