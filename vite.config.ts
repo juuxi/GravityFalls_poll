@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vite';
 
 export default defineConfig({
   base: '/GravityFalls_poll/',
@@ -6,6 +6,12 @@ export default defineConfig({
     open: '/GravityFalls_poll/', 
   },
   build: {
-    outDir: 'dist'
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: './index.html',
+        question: './question.html',
+      },
+    },
   },
 })
