@@ -13,10 +13,27 @@ body {
 
 h1 {
   position: absolute;
-  margin-left: 44%;
-  margin-top: 25.5%;
-  color: red;
-  z-index: 6;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #0a1d57;
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Marker Felt', 'Arial Rounded MT Bold', sans-serif;
+  font-size: 3em;
+  text-shadow:
+    2px 2px 0 #fef5fded,
+    -1px -1px 0 #fef5fded,
+    1px -1px 0 #fef5fded,
+    -1px 1px 0 #fef5fded,
+    0 0 12px #fef5fded;
+  z-index: 10;
+  pointer-events: none;
+  line-height: 1.2;
+  letter-spacing: 1px;
+}
+
+h1 span {
+  display: block;
 }
 
 img {
@@ -43,19 +60,19 @@ img:hover {
 }
 
 .image-2 {
-  left: 20%;
+  left: 22%;
   top: 25%;
   z-index: 5;
 }
 
 .image-3 {
-  left: 39%;
+  left: 40.25%;
   top: 25%;
   z-index: 5;
 }
 
 .image-4 {
-  left: 55%;
+  left: 56%;
   top: 25%;
   z-index: 4;
 }
