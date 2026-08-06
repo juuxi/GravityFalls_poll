@@ -8,6 +8,7 @@ body {
   position: relative;
   min-height: 100vh;
   overflow: hidden;
+  background-image: url('backgrounds/forest.png');
 }
 
 h1 {
