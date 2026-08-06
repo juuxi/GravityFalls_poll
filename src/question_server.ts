@@ -26,6 +26,9 @@ export function setupQuestionServer() {
       let answer_btn = document.createElement('button');
       answer_btn.innerText = answer.text;
       answer_btn.value = answer_idx.toString();
+      currScores.push(answer.scores);
+      answer_btn.addEventListener('click', () => applyScore(answer_btn));
+      
       if(idx >= max_question_num) {
         const result_page_anchor = document.createElement('a');
         result_page_anchor.href = 'results.html';
@@ -33,16 +36,12 @@ export function setupQuestionServer() {
         app_div.appendChild(result_page_anchor);
       }
       else {
+        answer_btn.addEventListener('click', () => changeQuestion(counter + 1));
         app_div.appendChild(answer_btn);
       }
-
-      currScores.push(answer.scores);
-      answer_btn.addEventListener('click', () => applyScore(answer_btn));
     })
   }
 
-  document.querySelector<HTMLButtonElement>('#next_btn')
-  ?.addEventListener('click', () => changeQuestion(counter + 1));
   document.querySelector<HTMLButtonElement>('#prev_btn')
   ?.addEventListener('click', () => changeQuestion(counter - 1));
   changeQuestion(0);
