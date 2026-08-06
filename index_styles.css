@@ -20,12 +20,9 @@ h1 {
 
 img {
   position: absolute;
-  background: #fefefe;
   padding: 8px 8px 28px 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.25);
   object-fit: cover;
-  width: 200px;
-  height: 300px;
+  
 
   transition: all 0.3s ease;
   border-radius: 12px; 
@@ -39,107 +36,95 @@ img:hover {
 }
 
 .image-1 {
-  left: 12%;
-  top: 28%;
-  transform: rotate(-9deg);
+  left: 0%;
+  top: 25%;
   z-index: 5;
 }
 
 .image-2 {
-  left: 27%;
-  top: 20%;
-  transform: rotate(-4deg);
+  left: 20%;
+  top: 25%;
   z-index: 5;
 }
 
 .image-3 {
-  left: 42%;
-  top: 26%;
-  transform: rotate(1deg);
+  left: 39%;
+  top: 25%;
   z-index: 5;
 }
 
 .image-4 {
-  left: 57%;
-  top: 18%;
-  transform: rotate(7deg);
+  left: 55%;
+  top: 25%;
   z-index: 4;
 }
 
 .image-5 {
-  left: 73%;
-  top: 20%;
-  transform: rotate(13deg);
+  left: 79%;
+  top: 25%;
   z-index: 5;
 }
 
 .image-6 {
-  left: 6%;
-  top: 42%;
-  transform: rotate(-6deg);
-  z-index: 2;
+  left: -1%;
+  top: 50%;
+  z-index: 3;
 }
 
 .image-7 {
-  left: 12%;
-  top: 42%;
+  left: 8%;
+  top: 50%;
   padding: 5px 5px 18px 5px;
-  transform: rotate(28deg);
-  z-index: 1;
+  z-index: 2;
 }
 
 .image-8 {
-  left: 23%;
-  top: 42%;
+  left: 20%;
+  top: 50%;
   padding: 5px 5px 18px 5px;
-  transform: rotate(-18deg);
   z-index: 1;
 }
 
 .image-9 {
   left: 28%;
-  top: 42%;
+  top: 65%;
   padding: 5px 5px 18px 5px;
-  transform: rotate(33deg);
   z-index: 1;
 }
 
 .image-10 {
-  left: 40%;
-  top: 42%;
+  left: 37%;
+  top: 55%;
   padding: 4px 4px 14px 4px;
-  transform: rotate(-22deg);
   z-index: 1;
 }
 
 .image-11 {
-  left: 48%;
-  top: 42%;
+  left: 52%;
+  top: 50%;
+  transform: rotate(15deg);
   padding: 4px 4px 14px 4px;
-  transform: rotate(-24deg);
   z-index: 1;
 }
 
 .image-12 {
-  left: 57%;
-  top: 42%;
+  left: 55%;
+  top: 60%;
+  transform: rotate(-35deg);
   padding: 5px 5px 18px 5px;
-  transform: rotate(15deg);
   z-index: 1;
 }
 
 .image-13 {
-  left: 65%;
-  top: 42%;
+  left: 68%;
+  top: 50%;
   padding: 4px 4px 14px 4px;
-  transform: rotate(-24deg);
   z-index: 1;
 }
 
 .image-14 {
-  left: 75%;
-  top: 42%;
+  left: 85%;
+  top: 50%;
   padding: 5px 5px 18px 5px;
-  transform: rotate(15deg);
   z-index: 1;
 }
