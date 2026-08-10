@@ -5,7 +5,7 @@
 }
 
 body {
-  background: url('backgrounds/dipper_mabel_room.png') no-repeat center center / cover;
+  background: url('/backgrounds/dipper_mabel_room.png') no-repeat center center / cover;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -25,7 +25,7 @@ body {
 .paper {
   width: 520px;
   min-height: 600px;
-  background: url('backgrounds/paperback.png') no-repeat center center / cover;
+  background: url('/backgrounds/paperback.png') no-repeat center center / cover;
   position: relative;
   padding: 60px 50px 80px 80px;
   display: flex;
