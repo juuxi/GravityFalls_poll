@@ -1,6 +1,6 @@
 import { questions } from './json_parser.ts'
 import type { Scores, Question } from './json_parser.ts';
-import { setCounter } from './score_counter.ts';
+import { saveAnswer } from './answer_tracker.ts';
 
 function updateProgressBar(questions: Question[], idx: number) {
   let progressBar = document.querySelector<HTMLDivElement>('.progress-bar')!;
@@ -24,12 +24,6 @@ export function setupQuestionServer() {
   let app_div = document.querySelector<HTMLDivElement>('.question_div')!
   let currScores: Scores[] = [];
 
-  let applyScore = (btn: HTMLButtonElement) => {
-    const idx: number = +btn.value;
-    const scores = currScores[idx];
-    setCounter(scores);
-  }
-
   let changeQuestion = (idx: number) => {
     idx = Math.max(0, idx);
     counter = idx;
@@ -43,7 +37,7 @@ export function setupQuestionServer() {
       answer_btn.innerText = answer.text;
       answer_btn.value = answer_idx.toString();
       currScores.push(answer.scores);
-      answer_btn.addEventListener('click', () => applyScore(answer_btn));
+      answer_btn.addEventListener('click', () => saveAnswer(idx, answer_idx));
       
       if(idx >= max_question_num) {
         const result_page_anchor = document.createElement('a');
