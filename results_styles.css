@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('/backgrounds/forest_with_bill.png') no-repeat center center / cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* ─── Paper ─── */
+.paper {
+  width: 880px;
+  height: 580px;
+  background-color: #f7f2e0;
+  background-image: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 30px,
+    #d8d0bc 30px,
+    #d8d0bc 31px
+  );
+  position: relative;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
+  padding: 45px 60px;
+}
+
+/* ─── Tape + Heart decoration ─── */
+.tape-decoration {
+  position: absolute;
+  top: -90px;
+  left: -40px;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.tape-decoration .bandage {
+  width: 130px;
+  height: 280px;
+  object-fit: contain;
+  display: block;
+  filter: drop-shadow(1px 2px 3px rgba(0,0,0,0.15));
+}
+
+.tape-decoration .heart {
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+  position: absolute;
+  top: 100px;
+  left: 55px;
+  transform: rotate(-5deg);
+}
+
+/* ─── Inner layout ─── */
+.paper-inner {
+  display: flex;
+  height: 100%;
+  gap: 50px;
+}
+
+.left-column {
+  width: 42%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.right-column {
+  width: 58%;
+  position: relative;
+}
+
+/* ─── Polaroid ─── */
+.polaroid {
+  width: 210px;
+  margin: 30px;
+  align-self: flex-start;
+}
+
+.photo-placeholder {
+  width: 100%;
+  height: 210px;
+  background: #fff;
+  border: 10px solid #fff;
+  border-bottom-width: 45px;
+  box-shadow: 2px 3px 12px rgba(0, 0, 0, 0.12);
+}
+
+.polaroid-caption {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -38px;
+  padding: 0 12px;
+  position: relative;
+  z-index: 2;
+  font-size: 14px;
+  color: #5a5045;
+  font-style: italic;
+  font-family: 'Brush Script MT', cursive;
+}
+
+/* ─── Description paragraph ─── */
+.description {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #4a4035;
+  padding-right: 10px;
+  text-align: justify;
+}
+
+/* ─── Right-side doodles ─── */
+.doodles {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.doodle-line {
+  position: absolute;
+  display: block;
+  font-family: 'Brush Script MT', 'Segoe Script', cursive;
+  font-size: 34px;
+  color: #3a3530;
+  white-space: nowrap;
+  transform: rotate(-28deg);
+}
+
+.doodle-line:nth-child(1) { top: 25px;  right: 10px;  }
+.doodle-line:nth-child(2) { top: 105px; right: 50px;  }
+.doodle-line:nth-child(3) { top: 185px; right: 90px;  }
+
+.emoji {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+.emoji-axe   { top: 15px;  right: 130px; transform: rotate(20deg); }
+.emoji-tree  { top: 130px; right: 200px; }
+.emoji-radio { top: 260px; right: 100px; transform: rotate(-5deg); }
+
+/* ─── Retry link ─── */
+.retry {
+  position: absolute;
+  bottom: 35px;
+  right: 70px;
+  font-size: 16px;
+  color: #4a4035;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.retry::after {
+  content: ' \2192';
+  font-size: 22px;
+  margin-left: 4px;
+}
+
+/* ─── Debug ─── */
+.debug {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 12px;
+  z-index: 100;
+}

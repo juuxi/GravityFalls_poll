@@ -6,10 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>gravity_falls_poll</title>
     <link rel="stylesheet" href="/src/style.css">
+    <link rel="stylesheet" href="results_styles.css">
   </head>
   <body>
     <div id="app">
-      <div class='debug'></div>
+      <div class="paper">
+        <!-- Top-left tape + heart decoration -->
+        <div class="tape-decoration">
+          <img src="results/bandage.png" class="bandage" alt="">
+          <img src="results/heart.png" class="heart" alt="">
+        </div>
+
+        <div class="paper-inner">
+          <!-- Left column -->
+          <div class="left-column">
+            <div class="polaroid">
+              <div class="photo-placeholder"></div>
+              <div class="polaroid-caption">
+                <span class="name"></span>
+                <span class="date"></span>
+              </div>
+            </div>
+
+            <div class="description"></div>
+          </div>
+
+          <!-- Right column -->
+          <div class="right-column">
+            <div class="doodles">
+              <span class="doodle-line"></span>
+              <span class="doodle-line"></span>
+              <span class="doodle-line"></span>
+
+              <img src="dummies.png" class="emoji emoji-axe" alt="axe">
+              <img src="dummies.png" class="emoji emoji-tree" alt="tree">
+              <img src="dummies.png" class="emoji emoji-radio" alt="radio">
+            </div>
+          </div>
+        </div>
+
+        <div class="retry"></div>
+      </div>
+
+      <div class="debug"></div>
     </div>
     <script type="module" src="/src/count_results.ts"></script>
   </body>

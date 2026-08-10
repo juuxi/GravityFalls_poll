@@ -16,7 +16,7 @@ function countResult() {
       }
     }
     
-    document.querySelector<HTMLDivElement>('.debug')!.innerHTML = `
+    document.querySelector<HTMLDivElement>('.description')!.innerHTML = `
     Твой любимый персонаж - ${winCharacter}
     `
   }
