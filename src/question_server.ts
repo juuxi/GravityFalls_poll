@@ -1,6 +1,22 @@
 import { questions } from './json_parser.ts'
-import type { Scores } from './json_parser.ts';
+import type { Scores, Question } from './json_parser.ts';
 import { setCounter } from './score_counter.ts';
+
+function updateProgressBar(questions: Question[], idx: number) {
+  let progressBar = document.querySelector<HTMLDivElement>('.progress-bar')!;
+  progressBar.innerHTML = '';
+  questions.forEach( (_, question_idx) => {
+    let dot = document.createElement('span');
+    dot.classList.add('dot');
+    if(question_idx < idx) {
+      dot.classList.add('active');
+    }
+    else if(question_idx == idx) {
+      dot.classList.add('current');
+    }
+    progressBar.appendChild(dot);
+  });
+}
 
 export function setupQuestionServer() {
   let counter = 0;
@@ -40,6 +56,8 @@ export function setupQuestionServer() {
         app_div.appendChild(answer_btn);
       }
     })
+
+    updateProgressBar(questions, idx);
   }
 
   document.querySelector<HTMLButtonElement>('#prev_btn')

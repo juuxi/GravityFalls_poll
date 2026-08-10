@@ -15,7 +15,7 @@ interface Answer {
   scores: Scores;
 }
 
-interface Question {
+export interface Question {
   question: string;
   answers: Answer[];
 }
