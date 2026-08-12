@@ -38,7 +38,6 @@ h1 span {
 
 img {
   position: absolute;
-  padding: 8px 8px 28px 8px;
   object-fit: cover;
   
 
@@ -49,20 +48,22 @@ img {
 }
 
 img:hover {
-  box-shadow: 0 10px 25px rgba(255, 20, 147, 0.7);
+  box-shadow: 0 0 55px rgba(255, 0, 147, 0.7);
   transform: translateY(-5px); 
 }
 
 .image-1 {
-  left: 0%;
+  left: 2%;
   top: 25%;
   z-index: 5;
+  transform: rotate(4deg);
 }
 
 .image-2 {
-  left: 22%;
+  left: 21%;
   top: 25%;
   z-index: 5;
+  transform: rotate(-2deg);
 }
 
 .image-3 {
@@ -72,77 +73,86 @@ img:hover {
 }
 
 .image-4 {
-  left: 56%;
+  left: 59%;
   top: 25%;
   z-index: 4;
+  transform: rotate(15deg);
 }
 
 .image-5 {
-  left: 79%;
+  left: 80%;
   top: 25%;
   z-index: 5;
+  transform: rotate(5deg);
 }
 
 .image-6 {
   left: -1%;
-  top: 50%;
-  z-index: 3;
+  top: 60%;
+  z-index: 2;
+  height: 400px;
+  transform: rotate(-12deg);
 }
 
 .image-7 {
-  left: 8%;
-  top: 50%;
-  padding: 5px 5px 18px 5px;
-  z-index: 2;
+  left: 12%;
+  top: 57%;
+  z-index: 3;
+  height: 400px;
+  transform: rotate(-10deg);
 }
 
 .image-8 {
   left: 20%;
-  top: 50%;
-  padding: 5px 5px 18px 5px;
-  z-index: 1;
+  top: 48%;
+  z-index: 4;
+  height: 400px;
+  transform: rotate(14deg);
 }
 
 .image-9 {
   left: 28%;
   top: 65%;
-  padding: 5px 5px 18px 5px;
   z-index: 1;
+  height: 400px;
 }
 
 .image-10 {
-  left: 37%;
-  top: 55%;
-  padding: 4px 4px 14px 4px;
+  left: 39%;
+  top: 56%;
   z-index: 1;
+  height: 400px;
+  transform: rotate(-40deg);
 }
 
 .image-11 {
-  left: 52%;
-  top: 50%;
-  transform: rotate(15deg);
-  padding: 4px 4px 14px 4px;
-  z-index: 1;
+  left: 55%;
+  top: 60%;
+  z-index: 3;
+  height: 400px;
+  transform: rotate(18deg);
 }
 
 .image-12 {
-  left: 55%;
-  top: 60%;
-  transform: rotate(-35deg);
-  padding: 5px 5px 18px 5px;
+  left: 71%;
+  top: 62%;
   z-index: 1;
+  height: 400px;
+  transform: rotate(30deg);
 }
 
 .image-13 {
-  left: 68%;
-  top: 50%;
-  padding: 4px 4px 14px 4px;
-  z-index: 1;
+  left: 74%;
+  top: 42%;
+  z-index: 2;
+  height: 400px;
+  transform: rotate(-35deg);
 }
 
 .image-14 {
-  left: 85%;
-  top: 50%;
-  padding: 5px 5px 18px 5px;
-  z-index: 1;
+  left: 86%;
+  top: 60%;
+  z-index: 3;
+  height: 400px;
+  transform: rotate(17deg);
 }
