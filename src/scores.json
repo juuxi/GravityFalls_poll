@@ -1,35 +1,93 @@
 [
   {
-    "question": "Вопрос 1",
+    "question": "Каким спортом предпочтешь заниматься?",
     "answers": [
       {
-        "text": "Диппер",
-        "scores": { "Dipper": 3, "Stan": 0, "Mabel": 0, "Soos": 0, "Wendy": 0, "Bill Cipher": 0, "Gideon": 0, "Robbie": 0, "Pacifica": 0 }
+        "text": "Гольф",
+        "scores": { "Dipper": 3, "Stan": 1, "Mabel": -1, "Soos": -1, "Wendy": 0, "Bill Cipher": 1, "Gideon": 0, "Robbie": -2, "Pacifica": 3 }
       },
       {
-        "text": "Мэйбл",
-        "scores": { "Dipper": 0, "Stan": 0, "Mabel": 3, "Soos": 0, "Wendy": 0, "Bill Cipher": 0, "Gideon": 0, "Robbie": 0, "Pacifica": 0 }
+        "text": "Гонки, люблю \"Формулу 1\"",
+        "scores": { "Dipper": -2, "Stan": 2, "Mabel": 1, "Soos": -3, "Wendy": 1, "Bill Cipher": 2, "Gideon": 1, "Robbie": -1, "Pacifica": 2 }
       },
       {
-        "text": "Стэн",
-        "scores": { "Dipper": 0, "Stan": 3, "Mabel": 0, "Soos": 0, "Wendy": 0, "Bill Cipher": 0, "Gideon": 0, "Robbie": 0, "Pacifica": 0 }
+        "text": "Баскетбол",
+        "scores": { "Dipper": -3, "Stan": 0, "Mabel": 2, "Soos": 1, "Wendy": 3, "Bill Cipher": 0, "Gideon": -3, "Robbie": -1, "Pacifica": 1 }
+      },
+      {
+        "text": "Никаким, не люблю спорт",
+        "scores": { "Dipper": -2, "Stan": 2, "Mabel": -2, "Soos": 3, "Wendy": -3, "Bill Cipher": 0, "Gideon": 1, "Robbie": 3, "Pacifica": -3 }
       }
     ]
   },
   {
-    "question": "Вопрос 2",
+    "question": "Любимое время суток",
     "answers": [
       {
-        "text": "Зус",
-        "scores": { "Dipper": 0, "Stan": 0, "Mabel": 0, "Soos": 3, "Wendy": 0, "Bill Cipher": 0, "Gideon": 0, "Robbie": 0, "Pacifica": 0 }
+        "text": "Продуктивное утро",
+        "scores": { "Dipper": 3, "Stan": -3, "Mabel": 0, "Soos": -3, "Wendy": -1, "Bill Cipher": -3, "Gideon": 2, "Robbie": -2, "Pacifica": -2 }
       },
       {
-        "text": "Вэнди",
-        "scores": { "Dipper": 0, "Stan": 0, "Mabel": 0, "Soos": 0, "Wendy": 3, "Bill Cipher": 0, "Gideon": 0, "Robbie": 0, "Pacifica": 0 }
+        "text": "Исследовательская ночь",
+        "scores": { "Dipper": 3, "Stan": 2, "Mabel": 2, "Soos": 3, "Wendy": 3, "Bill Cipher": 3, "Gideon": -3, "Robbie": 2, "Pacifica": -2 }
       },
       {
-        "text": "Гидеон",
-        "scores": { "Dipper": 0, "Stan": 0, "Mabel": 0, "Soos": 0, "Wendy": 0, "Bill Cipher": 0, "Gideon": 3, "Robbie": 0, "Pacifica": 0 }
+        "text": "Атмосферный вечер",
+        "scores": { "Dipper": -3, "Stan": 2, "Mabel": 2, "Soos": 1, "Wendy": 2, "Bill Cipher": -1, "Gideon": -1, "Robbie": 3, "Pacifica": 2 }
+      },
+      {
+        "text": "Активный день",
+        "scores": { "Dipper": -1, "Stan": -2, "Mabel": 3, "Soos": 0, "Wendy": 2, "Bill Cipher": 0, "Gideon": 1, "Robbie": -1, "Pacifica": 1 }
+      }
+    ]
+  },
+  {
+    "question": "Каким было бы твое любимое место в Gravity Falls, если бы ты жил там?",
+    "answers": [
+      {
+        "text": "Лес",
+        "scores": { "Dipper": 3, "Stan": -2, "Mabel": 1, "Soos": -3, "Wendy": 2, "Bill Cipher": 0, "Gideon": 2, "Robbie": -1, "Pacifica": 1 }
+      },
+      {
+        "text": "Мой дом",
+        "scores": { "Dipper": -2, "Stan": 3, "Mabel": 2, "Soos": 3, "Wendy": 1, "Bill Cipher": -3, "Gideon": 1, "Robbie": 2, "Pacifica": 3 }
+      },
+      {
+        "text": "Общественный бассейн",
+        "scores": { "Dipper": -2, "Stan": -2, "Mabel": 1, "Soos": -3, "Wendy": 3, "Bill Cipher": -2, "Gideon": 2, "Robbie": 1, "Pacifica": -3 }
+      },
+      {
+        "text": "Центр нашего городка",
+        "scores": { "Dipper": -2, "Stan": 2, "Mabel": 2, "Soos": -2, "Wendy": 2, "Bill Cipher": 3, "Gideon": 3, "Robbie": 0, "Pacifica": 3 }
+      },
+      {
+        "text": "Озеро Gravity Falls",
+        "scores": { "Dipper": 1, "Stan": 0, "Mabel": 2, "Soos": 2, "Wendy": 3, "Bill Cipher": 0, "Gideon": -2, "Robbie": 1, "Pacifica": -3 }
+      }
+    ]
+  },
+  {
+    "question": "Если бы ты жил в Gravity Falls, где бы ты работал?",
+    "answers": [
+      {
+        "text": "Хижина чудес",
+        "scores": { "Dipper": 2, "Stan": 3, "Mabel": 2, "Soos": 3, "Wendy": 2, "Bill Cipher": -3, "Gideon": -3, "Robbie": -1, "Pacifica": -3 }
+      },
+      {
+        "text": "Бассейн",
+        "scores": { "Dipper": 1, "Stan": -2, "Mabel": 1, "Soos": -2, "Wendy": 3, "Bill Cipher": -3, "Gideon": -3, "Robbie": 1, "Pacifica": -3 }
+      },
+      {
+        "text": "Работаю только на себя",
+        "scores": { "Dipper": 0, "Stan": 3, "Mabel": 1, "Soos": -3, "Wendy": 0, "Bill Cipher": 3, "Gideon": 3, "Robbie": 2, "Pacifica": 3 }
+      },
+      {
+        "text": "Я был бы мэром",
+        "scores": { "Dipper": 1, "Stan": 2, "Mabel": 2, "Soos": -3, "Wendy": 0, "Bill Cipher": 3, "Gideon": 2, "Robbie": -2, "Pacifica": 2 }
+      },
+      {
+        "text": "Работа - не мое",
+        "scores": { "Dipper": -2, "Stan": 2, "Mabel": 2, "Soos": 1, "Wendy": 0, "Bill Cipher": 3, "Gideon": -3, "Robbie": 2, "Pacifica": 3 }
       }
     ]
   }
