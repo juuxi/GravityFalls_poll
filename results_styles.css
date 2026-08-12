@@ -93,12 +93,8 @@ body {
 }
 
 .photo-placeholder {
-  width: 100%;
   height: 210px;
-  background: #fff;
-  border: 10px solid #fff;
   border-bottom-width: 45px;
-  box-shadow: 2px 3px 12px rgba(0, 0, 0, 0.12);
 }
 
 .polaroid-caption {
@@ -146,15 +142,14 @@ body {
 
 .emoji {
   position: absolute;
-  width: 70px;
-  height: 70px;
+  font-size: 3em;
   object-fit: contain;
   pointer-events: none;
 }
 
-.emoji-axe   { top: 15px;  right: 130px; transform: rotate(20deg); }
-.emoji-tree  { top: 130px; right: 200px; }
-.emoji-radio { top: 260px; right: 100px; transform: rotate(-5deg); }
+.emoji-axe   { top: 15px;  right: 50px; }
+.emoji-tree  { top: 130px; right: 250px; }
+.emoji-radio { top: 260px; right: 70px; }
 
 /* ─── Retry link ─── */
 .retry {

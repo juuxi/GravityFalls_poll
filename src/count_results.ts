@@ -51,6 +51,19 @@ function countResult() {
       }
     }
     
+    let image_file: string = 'results/';
+    if (winCharacter == 'Bill Cipher') {
+      image_file += 'bill_cipher.png';
+    }
+    else {
+      image_file += winCharacter?.toLowerCase() + '.png';
+    }
+
+    let img = document.createElement('img');
+    img.src = image_file;
+    img.height = 210;
+    document.querySelector<HTMLDivElement>('.photo-placeholder')?.appendChild(img);
+    
     document.querySelector<HTMLDivElement>('.description')!.innerHTML = `
     Твой любимый персонаж - ${winCharacter}
     `
