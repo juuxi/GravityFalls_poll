@@ -1,5 +1,5 @@
 import type { Scores } from "./json_parser";
-import { questions } from './json_parser.ts'
+import { questions, descriptions } from './json_parser.ts'
 
 
 const SCORE_KEYS: (keyof Scores)[] = [
@@ -64,8 +64,16 @@ function countResult() {
     img.height = 210;
     document.querySelector<HTMLDivElement>('.photo-placeholder')?.appendChild(img);
     
+    
+    let description: string = 'Invalid character name';
+    for (let description_obj of descriptions) {
+      if(description_obj.character == winCharacter) {
+        description = description_obj.description;
+      }
+    }
+
     document.querySelector<HTMLDivElement>('.description')!.innerHTML = `
-    Твой любимый персонаж - ${winCharacter}
+    ${description}
     `
   }
 }

@@ -20,6 +20,13 @@ export interface Question {
   answers: Answer[];
 }
 
+interface Description {
+  character: string;
+  description: string;
+}
+
 import questionsData from './scores.json';
+import descriptionsData from './result_descriptions.json';
 
 export const questions: Question[] = questionsData as Question[];
+export const descriptions: Description[] = descriptionsData as Description[];
