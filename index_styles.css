@@ -156,3 +156,38 @@ img:hover {
   height: 400px;
   transform: rotate(17deg);
 }
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2em;
+    line-height: 1;
+    letter-spacing: normal;
+  }
+
+  .image-1 {
+    top: 75%;
+    width: 30%;
+  }
+  .image-2 {
+    top: 75%;
+    width: 30%;
+  }
+  .image-3 {
+    top: 40%;
+    left: 30%;
+    width: 40%;
+  }
+  .image-4 {
+    top: 75%;
+    left: 50%;
+    width: 30%;
+  }
+  .image-5 {
+    top: 75%;
+    left: 70%;
+    width: 30%;
+  }
+  .image-6, .image-7, .image-8, .image-9, .image-10, .image-11, .image-12, .image-13, .image-14 {
+    display: none;
+  }
+}
