@@ -110,11 +110,11 @@ body {
 }
 
 .dot.active {
-  background: #5a8a5a;
+  background: #5ea55e;
 }
 
 .dot.current {
-  background: #c48444;
+  background: #3b4ea5;
 }
 
 .debug {
