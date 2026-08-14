@@ -27,6 +27,23 @@ export function setupQuestionServer() {
   let changeQuestion = (idx: number) => {
     idx = Math.max(0, idx);
     counter = idx;
+
+    if(counter == 0) {
+      const start_page_anchor = document.createElement('a');
+      start_page_anchor.href = 'index.html';
+      let prev_btn = document.querySelector<HTMLButtonElement>('#prev_btn');
+      if(prev_btn?.parentNode) {
+        prev_btn.parentNode.insertBefore(start_page_anchor, prev_btn);
+        start_page_anchor.appendChild(prev_btn);
+      }
+    } else {
+    const prev_btn = document.querySelector<HTMLButtonElement>('#prev_btn');
+    if (prev_btn?.parentElement?.tagName === 'A') {
+      const anchor = prev_btn.parentElement;
+      anchor.replaceWith(prev_btn);
+    }
+  }
+
     currScores.length = 0;
     const question = questions[idx];
     app_div.innerHTML = `
