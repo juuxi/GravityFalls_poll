@@ -177,3 +177,33 @@ body {
   font-size: 12px;
   z-index: 100;
 }
+
+@media (max-width: 480px) {
+  .paper {
+    width: 480px;
+  }
+
+  .right-column {
+    display: none;
+  }
+
+  .left-column {
+    width: 100%;
+  }
+
+  .emoji {
+    display: none;
+  }
+
+  .tape-decoration {
+    display: none;
+  }
+
+  .polaroid {
+    align-self: center;
+  }
+
+  .description {
+    text-align: center;
+  }
+}
