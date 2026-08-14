@@ -151,8 +151,8 @@ body {
 .emoji-tree  { top: 130px; right: 250px; }
 .emoji-radio { top: 260px; right: 70px; }
 
-/* ─── Retry link ─── */
-.retry {
+/* ─── Restart link ─── */
+.restart {
   position: absolute;
   bottom: 35px;
   right: 70px;
@@ -162,10 +162,11 @@ body {
   font-weight: 500;
 }
 
-.retry::after {
+.restart::after {
   content: ' \2192';
   font-size: 22px;
   margin-left: 4px;
+  vertical-align: -1px;
 }
 
 /* ─── Debug ─── */

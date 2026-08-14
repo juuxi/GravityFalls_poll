@@ -78,4 +78,15 @@ function countResult() {
   }
 }
 
+function setupRestart() {
+  let restart_div = document.querySelector<HTMLDivElement>('.restart');
+  const start_page_anchor = document.createElement('a');
+  start_page_anchor.href = 'index.html';
+  if(restart_div?.parentNode) {
+    restart_div.parentNode.insertBefore(start_page_anchor, restart_div);
+    start_page_anchor.appendChild(restart_div);
+  }
+}
+
 countResult();
+setupRestart();
