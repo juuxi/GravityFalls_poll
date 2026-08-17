@@ -49,24 +49,56 @@ export function setupQuestionServer() {
     app_div.innerHTML = `
     <h3>${question.question}</h3>
     `
-    question.answers.forEach( (answer, answer_idx) => {
-      let answer_btn = document.createElement('button');
-      answer_btn.innerText = answer.text;
-      answer_btn.value = answer_idx.toString();
-      currScores.push(answer.scores);
-      answer_btn.addEventListener('click', () => saveAnswer(idx, answer_idx));
-      
-      if(idx >= max_question_num) {
-        const result_page_anchor = document.createElement('a');
-        result_page_anchor.href = 'results.html';
-        result_page_anchor.appendChild(answer_btn);
-        app_div.appendChild(result_page_anchor);
-      }
-      else {
-        answer_btn.addEventListener('click', () => changeQuestion(counter + 1));
-        app_div.appendChild(answer_btn);
-      }
-    })
+    if (question.answers[0].text.substring(0, 3) == 'img') {
+      question.answers.forEach( (answer, answer_idx) => {
+        let answer_btn = document.createElement('button');
+        
+        let img_src = answer.text.split(' ')[1];
+        let text = answer.text.split(' ')[2];
+        let answer_img = document.createElement('img');
+        answer_img.src = img_src;
+        answer_img.classList.add('answer_img');
+
+        text = text.replace(new RegExp('_', 'g'), ' ');
+        answer_btn.innerHTML = text;
+        answer_btn.appendChild(answer_img);
+
+        answer_btn.value = answer_idx.toString();
+        currScores.push(answer.scores);
+        answer_btn.addEventListener('click', () => saveAnswer(idx, answer_idx));
+        
+        if(idx >= max_question_num) {
+          const result_page_anchor = document.createElement('a');
+          result_page_anchor.href = 'results.html';
+          result_page_anchor.appendChild(answer_btn);
+          app_div.appendChild(result_page_anchor);
+        }
+        else {
+          answer_btn.addEventListener('click', () => changeQuestion(counter + 1));
+          app_div.appendChild(answer_btn);
+        }
+      })
+    }
+    else {
+      question.answers.forEach( (answer, answer_idx) => {
+        let answer_btn = document.createElement('button');
+        answer_btn.innerText = answer.text;
+        answer_btn.value = answer_idx.toString();
+        currScores.push(answer.scores);
+        answer_btn.addEventListener('click', () => saveAnswer(idx, answer_idx));
+        
+        if(idx >= max_question_num) {
+          const result_page_anchor = document.createElement('a');
+          result_page_anchor.href = 'results.html';
+          result_page_anchor.appendChild(answer_btn);
+          app_div.appendChild(result_page_anchor);
+        }
+        else {
+          answer_btn.addEventListener('click', () => changeQuestion(counter + 1));
+          app_div.appendChild(answer_btn);
+        }
+      })
+    }
 
     updateProgressBar(questions, idx);
   }

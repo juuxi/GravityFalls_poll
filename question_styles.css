@@ -126,6 +126,10 @@ body {
   z-index: 100;
 }
 
+.answer_img {
+  height: 43px;
+}
+
 @media (max-width: 480px) {
   .paper {
     width: 100vw;

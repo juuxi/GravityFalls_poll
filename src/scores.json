@@ -90,5 +90,21 @@
         "scores": { "Dipper": -2, "Stan": 2, "Mabel": 2, "Soos": 1, "Wendy": 0, "Bill Cipher": 3, "Gideon": -3, "Robbie": 2, "Pacifica": 3 }
       }
     ]
+  },{
+    "question": "Твой любимый предмет в Хижине чудес",
+    "answers": [
+      {
+        "text": "img /GravityFalls_poll/questions/grizzlycorn.jpg Гриззликорн",
+        "scores": { "Dipper": -1, "Stan": 1, "Mabel": 3, "Soos": 2, "Wendy": 2, "Bill Cipher": 0, "Gideon": -2, "Robbie": 1, "Pacifica": 1 }
+      },
+      {
+        "text": "img /GravityFalls_poll/questions/trex_head.jpg Голова_T-Rex-а",
+        "scores": { "Dipper": -3, "Stan": 1, "Mabel": 2, "Soos": 3, "Wendy": 1, "Bill Cipher": -3, "Gideon": 2, "Robbie": -2, "Pacifica": 0 }
+      },
+      {
+        "text": "img /GravityFalls_poll/questions/worlds_most_distracting_object.jpg Самый_завораживающий_объект_в_мире",
+        "scores": { "Dipper": 3, "Stan": 3, "Mabel": 1, "Soos": 0, "Wendy": 0, "Bill Cipher": -1, "Gideon": -2, "Robbie": -2, "Pacifica": -3 }
+      }
+    ]
   }
 ]
