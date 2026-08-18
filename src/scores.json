@@ -90,7 +90,8 @@
         "scores": { "Dipper": -2, "Stan": 2, "Mabel": 2, "Soos": 1, "Wendy": 0, "Bill Cipher": 3, "Gideon": -3, "Robbie": 2, "Pacifica": 3 }
       }
     ]
-  },{
+  },
+  {
     "question": "Твой любимый предмет в Хижине чудес",
     "answers": [
       {
@@ -104,6 +105,111 @@
       {
         "text": "img /GravityFalls_poll/questions/worlds_most_distracting_object.jpg Самый_завораживающий_объект_в_мире",
         "scores": { "Dipper": 3, "Stan": 3, "Mabel": 1, "Soos": 0, "Wendy": 0, "Bill Cipher": -1, "Gideon": -2, "Robbie": -2, "Pacifica": -3 }
+      }
+    ]
+  },
+  {
+    "question": "Как ты обычно принимаешь важные решения?",
+    "answers": [
+      {
+        "text": "Взвешиваю все за и против, но в итоге делаю так, как удобнее мне",
+        "scores": { "Dipper": 2, "Stan": 3, "Mabel": -2, "Soos": -3, "Wendy": 2, "Bill Cipher": 2, "Gideon": 3, "Robbie": 0, "Pacifica": 3 }
+      },
+      {
+        "text": "Доверяю первому порыву",
+        "scores": { "Dipper": -3, "Stan": 0, "Mabel": 3, "Soos": 1, "Wendy": 1, "Bill Cipher": 2, "Gideon": -2, "Robbie": -1, "Pacifica": -1 }
+      },
+      {
+        "text": "Долго сомневаюсь, часто полагаюсь на других",
+        "scores": { "Dipper": -2, "Stan": -3, "Mabel": 0, "Soos": 3, "Wendy": -3, "Bill Cipher": -3, "Gideon": -3, "Robbie": 3, "Pacifica": -1 }
+      },
+      {
+        "text": "Вообще не парюсь — пусть всё идёт своим чередом",
+        "scores": { "Dipper": -3, "Stan": 1, "Mabel": 1, "Soos": 2, "Wendy": 3, "Bill Cipher": 2, "Gideon": -1, "Robbie": -1, "Pacifica": 1 }
+      }
+    ]
+  },
+  {
+    "question": "Что для тебя важно в одежде или внешнем виде?",
+    "answers": [
+      {
+        "text": "Удобство и практичность",
+        "scores": { "Dipper": 2, "Stan": 1, "Mabel": -1, "Soos": 3, "Wendy": 3, "Bill Cipher": -2, "Gideon": -2, "Robbie": 0, "Pacifica": -2 }
+      },
+      {
+        "text": "Сдержанность и непримечательность",
+        "scores": { "Dipper": 1, "Stan": 0, "Mabel": -2, "Soos": 1, "Wendy": 1, "Bill Cipher": -3, "Gideon": -3, "Robbie": 3, "Pacifica": -3 }
+      },
+      {
+        "text": "Яркость и оригинальность",
+        "scores": { "Dipper": -2, "Stan": -1, "Mabel": 3, "Soos": -3, "Wendy": 0, "Bill Cipher": 1, "Gideon": 2, "Robbie": -2, "Pacifica": 1 }
+      },
+      {
+        "text": "Статусность",
+        "scores": { "Dipper": -3, "Stan": 3, "Mabel": -2, "Soos": -3, "Wendy": -3, "Bill Cipher": 2, "Gideon": 3, "Robbie": -2, "Pacifica": 3 }
+      }
+    ]
+  },
+  {
+    "question": "Если бы у тебя была магическая способность, какая?",
+    "answers": [
+      {
+        "text": "Чтение мыслей",
+        "scores": { "Dipper": -2, "Stan": 2, "Mabel": 3, "Soos": -1, "Wendy": 0, "Bill Cipher": 3, "Gideon": 2, "Robbie": 1, "Pacifica": -3 }
+      },
+      {
+        "text": "Левитация",
+        "scores": { "Dipper": -3, "Stan": 0, "Mabel": 2, "Soos": 2, "Wendy": 3, "Bill Cipher": 3, "Gideon": 0, "Robbie": 0, "Pacifica": -1 }
+      },
+      {
+        "text": "Невидимость",
+        "scores": { "Dipper": 2, "Stan": 2, "Mabel": 1, "Soos": -2, "Wendy": 3, "Bill Cipher": 0, "Gideon": -1, "Robbie": 3, "Pacifica": -2 }
+      },
+      {
+        "text": "Превращение предметов в золото",
+        "scores": { "Dipper": -3, "Stan": 3, "Mabel": 0, "Soos": -1, "Wendy": -1, "Bill Cipher": 1, "Gideon": 1, "Robbie": -3, "Pacifica": 3 }
+      }
+    ]
+  },
+  {
+    "question": "Какую музыку ты предпочитаешь слушать в наушниках, когда никто не видит?",
+    "answers": [
+      {
+        "text": "Меланхоличную, грустную",
+        "scores": { "Dipper": 1, "Stan": -3, "Mabel": -3, "Soos": 0, "Wendy": -2, "Bill Cipher": 0, "Gideon": -3, "Robbie": 3, "Pacifica": -2 }
+      },
+      {
+        "text": "Электронику",
+        "scores": { "Dipper": -2, "Stan": -3, "Mabel": -1, "Soos": 2, "Wendy": 0, "Bill Cipher": 3, "Gideon": 1, "Robbie": 1, "Pacifica": -1 }
+      },
+      {
+        "text": "Что-то ритмичное и жизнерадостное",
+        "scores": { "Dipper": -1, "Stan": -1, "Mabel": 3, "Soos": 0, "Wendy": -2, "Bill Cipher": 0, "Gideon": 2, "Robbie": -3, "Pacifica": 2 }
+      },
+      {
+        "text": "Рок-баллады или фолк",
+        "scores": { "Dipper": 3, "Stan": 1, "Mabel": -2, "Soos": 1, "Wendy": 3, "Bill Cipher": -3, "Gideon": -2, "Robbie": 0, "Pacifica": 1 }
+      }
+    ]
+  },
+  {
+    "question": "Какую суперсилу ты бы выбрал?",
+    "answers": [
+      {
+        "text": "Умение разгадывать любые загадки",
+        "scores": { "Dipper": 3, "Stan": -1, "Mabel": 1, "Soos": -2, "Wendy": -2, "Bill Cipher": 3, "Gideon": 3, "Robbie": 1, "Pacifica": -2 }
+      },
+      {
+        "text": "Способность помогать людям во всех невзгодах",
+        "scores": { "Dipper": 1, "Stan": -3, "Mabel": 3, "Soos": 1, "Wendy": 0, "Bill Cipher": -3, "Gideon": -2, "Robbie": -3, "Pacifica": -3 }
+      },
+      {
+        "text": "Огромную физическую силу",
+        "scores": { "Dipper": -1, "Stan": 1, "Mabel": 1, "Soos": 1, "Wendy": 2, "Bill Cipher": 3, "Gideon": -1, "Robbie": -2, "Pacifica": 0 }
+      },
+      {
+        "text": "Умение управлять чужими мыслями",
+        "scores": { "Dipper": -3, "Stan": 3, "Mabel": -3, "Soos": -2, "Wendy": 0, "Bill Cipher": 3, "Gideon": 3, "Robbie": 1, "Pacifica": 2 }
       }
     ]
   }
