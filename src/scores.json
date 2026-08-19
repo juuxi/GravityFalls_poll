@@ -212,5 +212,101 @@
         "scores": { "Dipper": -3, "Stan": 3, "Mabel": -3, "Soos": -2, "Wendy": 0, "Bill Cipher": 3, "Gideon": 3, "Robbie": 1, "Pacifica": 2 }
       }
     ]
+  },
+  {
+    "question": "Твоё любимое блюдо?",
+    "answers": [
+      {
+        "text": "Пицца",
+        "scores": { "Dipper": 1, "Stan": 1, "Mabel": 2, "Soos": 3, "Wendy": 3, "Bill Cipher": 3, "Gideon": -1, "Robbie": 1, "Pacifica": -2 }
+      },
+      {
+        "text": "Мороженое",
+        "scores": { "Dipper": 2, "Stan": 0, "Mabel": 3, "Soos": 2, "Wendy": 2, "Bill Cipher": 0, "Gideon": 1, "Robbie": -2, "Pacifica": 1 }
+      },
+      {
+        "text": "Стейк",
+        "scores": { "Dipper": -3, "Stan": 3, "Mabel": -1, "Soos": -3, "Wendy": 1, "Bill Cipher": -2, "Gideon": 0, "Robbie": 0, "Pacifica": 3 }
+      },
+      {
+        "text": "Суши",
+        "scores": { "Dipper": -2, "Stan": -3, "Mabel": 1, "Soos": -2, "Wendy": -1, "Bill Cipher": 0, "Gideon": 2, "Robbie": -2, "Pacifica": -1 }
+      },
+      {
+        "text": "Чизбургер",
+        "scores": { "Dipper": -1, "Stan": 2, "Mabel": 1, "Soos": 3, "Wendy": 2, "Bill Cipher": -1, "Gideon": 3, "Robbie": 3, "Pacifica": -3 }
+      }
+    ]
+  },
+  {
+    "question": "Если бы у тебя было животное-компаньон, кто бы это был?",
+    "answers": [
+      {
+        "text": "Кот",
+        "scores": { "Dipper": -1, "Stan": 1, "Mabel": 2, "Soos": 3, "Wendy": 0, "Bill Cipher": -3, "Gideon": -2, "Robbie": 0, "Pacifica": -1 }
+      },
+      {
+        "text": "Волк",
+        "scores": { "Dipper": 2, "Stan": 0, "Mabel": 0, "Soos": -2, "Wendy": 2, "Bill Cipher": 0, "Gideon": -1, "Robbie": 3, "Pacifica": 2 }
+      },
+      {
+        "text": "Поросёнок",
+        "scores": { "Dipper": -2, "Stan": 2, "Mabel": 3, "Soos": -3, "Wendy": -1, "Bill Cipher": -3, "Gideon": -3, "Robbie": -3, "Pacifica": -3 }
+      },
+      {
+        "text": "Лиса",
+        "scores": { "Dipper": 1, "Stan": -1, "Mabel": 2, "Soos": -2, "Wendy": 3, "Bill Cipher": 0, "Gideon": 2, "Robbie": 1, "Pacifica": 2 }
+      },
+      {
+        "text": "Фу, зачем мне вообще таскаться с животным?",
+        "scores": { "Dipper": -3, "Stan": 1, "Mabel": -3, "Soos": 0, "Wendy": -3, "Bill Cipher": 3, "Gideon": 3, "Robbie": -2, "Pacifica": 3 }
+      }
+    ]
+  },
+  {
+    "question": "Твой любимый праздник?",
+    "answers": [
+      {
+        "text": "Хэллоуин",
+        "scores": { "Dipper": 2, "Stan": 3, "Mabel": 2, "Soos": -1, "Wendy": 3, "Bill Cipher": 2, "Gideon": -1, "Robbie": 3, "Pacifica": -2 }
+      },
+      {
+        "text": "День рождения",
+        "scores": { "Dipper": 3, "Stan": 1, "Mabel": 3, "Soos": 0, "Wendy": -1, "Bill Cipher": -3, "Gideon": 3, "Robbie": -2, "Pacifica": 3 }
+      },
+      {
+        "text": "День независимости",
+        "scores": { "Dipper": 2, "Stan": 0, "Mabel": 2, "Soos": -2, "Wendy": 1, "Bill Cipher": 1, "Gideon": 2, "Robbie": -3, "Pacifica": 2 }
+      },
+      {
+        "text": "Рождество",
+        "scores": { "Dipper": 3, "Stan": 1, "Mabel": 2, "Soos": 3, "Wendy": 1, "Bill Cipher": -2, "Gideon": -1, "Robbie": 0, "Pacifica": -1 }
+      }
+    ]
+  },
+  {
+    "question": "Что ты делаешь, когда скучно?",
+    "answers": [
+      {
+        "text": "Играю в видеоигры",
+        "scores": { "Dipper": -3, "Stan": 1, "Mabel": 1, "Soos": 3, "Wendy": 2, "Bill Cipher": 0, "Gideon": -1, "Robbie": 2, "Pacifica": -3 }
+      },
+      {
+        "text": "Читаю книги",
+        "scores": { "Dipper": 3, "Stan": -2, "Mabel": -2, "Soos": -3, "Wendy": -3, "Bill Cipher": 0, "Gideon": -2, "Robbie": -1, "Pacifica": -2 }
+      },
+      {
+        "text": "Рисую или вяжу",
+        "scores": { "Dipper": -3, "Stan": -3, "Mabel": 3, "Soos": 1, "Wendy": -3, "Bill Cipher": -2, "Gideon": 0, "Robbie": -3, "Pacifica": -1 }
+      },
+      {
+        "text": "Играю на гитаре",
+        "scores": { "Dipper": -1, "Stan": -2, "Mabel": 0, "Soos": 1, "Wendy": 1, "Bill Cipher": -1, "Gideon": -1, "Robbie": 3, "Pacifica": -1 }
+      },
+      {
+        "text": "Гуляю на природе",
+        "scores": { "Dipper": 3, "Stan": -2, "Mabel": 1, "Soos": -1, "Wendy": 3, "Bill Cipher": -3, "Gideon": -2, "Robbie": 1, "Pacifica": 1 }
+      }
+    ]
   }
 ]
