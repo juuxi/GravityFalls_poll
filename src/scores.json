@@ -308,5 +308,68 @@
         "scores": { "Dipper": 3, "Stan": -2, "Mabel": 1, "Soos": -1, "Wendy": 3, "Bill Cipher": -3, "Gideon": -2, "Robbie": 1, "Pacifica": 1 }
       }
     ]
+  },
+  {
+    "question": "Твоя любимая погода?",
+    "answers": [
+      {
+        "text": "Солнечная и теплая",
+        "scores": { "Dipper": 2, "Stan": 1, "Mabel": 3, "Soos": 2, "Wendy": 2, "Bill Cipher": -2, "Gideon": 1, "Robbie": -3, "Pacifica": 2 }
+      },
+      {
+        "text": "Дождливая и пасмурная",
+        "scores": { "Dipper": -1, "Stan": 1, "Mabel": -3, "Soos": -2, "Wendy": 0, "Bill Cipher": 1, "Gideon": -2, "Robbie": 3, "Pacifica": -1 }
+      },
+      {
+        "text": "Снежная",
+        "scores": { "Dipper": 0, "Stan": 0, "Mabel": 2, "Soos": 1, "Wendy": 1, "Bill Cipher": -2, "Gideon": -3, "Robbie": -1, "Pacifica": 0 }
+      },
+      {
+        "text": "Гроза и шторм",
+        "scores": { "Dipper": -1, "Stan": 0, "Mabel": -2, "Soos": -3, "Wendy": 2, "Bill Cipher": 3, "Gideon": 0, "Robbie": 2, "Pacifica": -2 }
+      }
+    ]
+  },
+  {
+    "question": "Если бы ты мог отправиться в прошлое, что бы ты сделал?",
+    "answers": [
+      {
+        "text": "Узнал бы исторические тайны",
+        "scores": { "Dipper": 3, "Stan": 1, "Mabel": 0, "Soos": 1, "Wendy": 1, "Bill Cipher": 3, "Gideon": 3, "Robbie": 1, "Pacifica": -3 }
+      },
+      {
+        "text": "Изменил бы что-то в своей жизни",
+        "scores": { "Dipper": 2, "Stan": 2, "Mabel": 1, "Soos": -2, "Wendy": 0, "Bill Cipher": 0, "Gideon": -1, "Robbie": 2, "Pacifica": -3 }
+      },
+      {
+        "text": "Инвестировал бы в акции",
+        "scores": { "Dipper": -2, "Stan": 3, "Mabel": -1, "Soos": -3, "Wendy": 0, "Bill Cipher": 0, "Gideon": 1, "Robbie": 0, "Pacifica": 3 }
+      },
+      {
+        "text": "Попытался бы предотвратить катастрофу",
+        "scores": { "Dipper": 3, "Stan": -1, "Mabel": 2, "Soos": 1, "Wendy": 2, "Bill Cipher": -3, "Gideon": -2, "Robbie": -1, "Pacifica": 1 }
+      }
+    ]
+  },
+  {
+    "question": "Фильм какого жанра ты предпочтешь?",
+    "answers": [
+      {
+        "text": "Комедия",
+        "scores": { "Dipper": -2, "Stan": 2, "Mabel": 3, "Soos": 2, "Wendy": 2, "Bill Cipher": 0, "Gideon": -2, "Robbie": -3, "Pacifica": 0 }
+      },
+      {
+        "text": "Ужасы",
+        "scores": { "Dipper": -3, "Stan": 1, "Mabel": -3, "Soos": 1, "Wendy": 3, "Bill Cipher": 2, "Gideon": -1, "Robbie": 2, "Pacifica": -2 }
+      },
+      {
+        "text": "Приключенческий",
+        "scores": { "Dipper": 2, "Stan": 1, "Mabel": 2, "Soos": 2, "Wendy": 2, "Bill Cipher": 0, "Gideon": 1, "Robbie": 0, "Pacifica": 1 }
+      },
+      {
+        "text": "Драма",
+        "scores": { "Dipper": -1, "Stan": -2, "Mabel": 1, "Soos": -3, "Wendy": -2, "Bill Cipher": -3, "Gideon": 1, "Robbie": 2, "Pacifica": 1 }
+      }
+    ]
   }
 ]
