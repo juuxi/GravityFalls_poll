@@ -50,6 +50,20 @@ export function setupQuestionServer() {
     <h3>${question.question}</h3>
     `
     if (question.answers[0].text.substring(0, 3) == 'img') {
+      let answers_div = document.createElement('div');
+      answers_div.classList.add('answers-content');
+      let image_div = document.createElement('div');
+      image_div.classList.add('image-grid');
+      if (question.answers.length == 2) {
+        image_div.classList.add('images-2');
+      }
+      if (question.answers.length == 3) {
+        image_div.classList.add('images-3');
+      }
+      if (question.answers.length == 4) {
+        image_div.classList.add('images-4');
+      }
+
       question.answers.forEach( (answer, answer_idx) => {
         let answer_btn = document.createElement('button');
         
@@ -57,7 +71,7 @@ export function setupQuestionServer() {
         let text = answer.text.split(' ')[2];
         let answer_img = document.createElement('img');
         answer_img.src = img_src;
-        answer_img.classList.add('answer_img');
+        answer_img.classList.add('answer-img');
 
         text = text.replace(new RegExp('_', 'g'), ' ');
         answer_btn.innerHTML = text;
@@ -71,13 +85,15 @@ export function setupQuestionServer() {
           const result_page_anchor = document.createElement('a');
           result_page_anchor.href = 'results.html';
           result_page_anchor.appendChild(answer_btn);
-          app_div.appendChild(result_page_anchor);
+          image_div.appendChild(result_page_anchor);
         }
         else {
           answer_btn.addEventListener('click', () => changeQuestion(counter + 1));
-          app_div.appendChild(answer_btn);
+          image_div.appendChild(answer_btn);
         }
       })
+      answers_div.appendChild(image_div);
+      app_div.appendChild(answers_div);
     }
     else {
       question.answers.forEach( (answer, answer_idx) => {
