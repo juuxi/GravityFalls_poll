@@ -14,6 +14,27 @@ function addScores(a: Scores, b: Scores): Scores {
   return result;
 }
 
+function addMetaToPolaroid(winCharacter: string | undefined) {
+  let nameSpan = document.querySelector<HTMLSpanElement>('.name')!;
+  let name = '';
+  switch(winCharacter) {
+    case 'Dipper': name = 'Диппер'; break;
+    case 'Stan': name = 'Стэн'; break;
+    case 'Mabel': name = 'Мейбл'; break;
+    case 'Soos': name = 'Зус'; break;
+    case 'Wendy': name = 'Венди'; break;
+    case 'Bill Cipher': name = 'Билл Шифр'; break;
+    case 'Gideon': name = 'Гидеон'; break;
+    case 'Robbie': name = 'Робби'; break;
+    case 'Pacifica': name = 'Пасифика'; break;
+  }
+  nameSpan.innerText = name;
+
+  let dateSpan = document.querySelector<HTMLSpanElement>('.date')!;
+  const date_obj = new Date();
+  dateSpan.innerText = date_obj.toLocaleDateString();
+}
+
 
 function countResult() {
   const savedAnswers = localStorage.getItem('userAnswers');
@@ -71,6 +92,8 @@ function countResult() {
         description = description_obj.description;
       }
     }
+
+    addMetaToPolaroid(winCharacter);
 
     document.querySelector<HTMLDivElement>('.description')!.innerHTML = `
     ${description}
