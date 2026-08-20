@@ -178,6 +178,10 @@ img:hover {
     left: 50%;
     transform: translateX(-50%);
   }
+  .image-3:hover {
+    box-shadow: 0 0 55px rgba(255, 0, 147, 0.7);
+    transform: translateX(-50%) translateY(-5px);
+  }
   .image-4 {
     top: 75%;
     left: 50%;
