@@ -85,12 +85,6 @@ body {
   font-family: inherit;
 }
 
-.question_div button:hover {
-  background: #ede0cf;
-  border-color: #d4c0a8;
-  transform: translateX(4px);
-}
-
 .progress-bar {
   position: absolute;
   bottom: 25px;
@@ -138,5 +132,21 @@ body {
   .dot {
     width: 3.5vw;
     height: 3.5vw;
+  }
+}
+
+@media (hover: hover) {
+  .question_div button:hover {
+    background: #ede0cf;
+    border-color: #d4c0a8;
+    transform: translateX(4px);
+  }
+}
+
+@media (hover: none) {
+  .question_div button:active {
+    background: #ede0cf;
+    border-color: #d4c0a8;
+    transform: translateX(4px);
   }
 }
